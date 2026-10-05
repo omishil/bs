@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education System of Bangladesh</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .answer-wrapper {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition:
+        grid-template-rows 0.45s ease,
+        opacity 0.35s ease;
+    }
+
+    .answer-wrapper.open {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
+
+    .answer-inner {
+      overflow: hidden;
+    }
+
+    .arrow {
+      transition: transform 0.35s ease;
+    }
+
+    .question.active .arrow {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-white text-slate-900">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center h-16">
+        <a
+          href="index.html"
+          class="text-slate-800 font-semibold hover:text-red-500 transition duration-300"
+        >
+          Home
+        </a> <a 
+          href="other.html"
+          class="text-slate-800 font-semibold hover:text-red-500 transition duration-300 ml-8"
+        >
+          others
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+
+    <!-- Header -->
+    <header class="mb-10">
+      <h1 class="text-3xl sm:text-4xl font-bold text-slate-900">
+        Education System of Bangladesh
+      </h1>
+
+      <p class="mt-3 text-slate-500">
+        Tap a question to reveal the answer.
+      </p>
+    </header>
+
+
+    <div class="space-y-4">
+
+
+      <!-- QUESTION 20 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-50 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+          <span class="text-red-500 text-xl flex-shrink-0">🔴</span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            20. Education System of Bangladesh
+          </span>
+
+          <span class="arrow text-slate-400 text-xl flex-shrink-0">
+            ▼
+          </span>
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  Bangladesh has a structured education system divided into different levels and streams. Its main purposes are to provide knowledge, develop skills, socialize learners, and contribute to economic development. The uploaded materials describe education from early childhood to higher education, along with general, madrasah, and technical-vocational streams.
+                </p>
+
+                <p>
+                  The education system includes primary, secondary, and tertiary education. The Educational System PDF describes primary education as grades 1–8, secondary education as grades 9–12, and tertiary education as universities and specialized colleges. Primary education is free and compulsory. The education presentation also includes early childhood, higher secondary, and professional or continuing education.
+                </p>
+
+                <p>
+                  There are three major educational streams. The General Stream is the mainstream public and private education system and may use Bengali or English. The Madrasah Stream provides religious education along with general subjects. The Technical-Vocational Stream focuses on specialized training and preparation for employment.
+                </p>
+
+                <p>
+                  Bangladesh has made progress in access to education, with primary enrollment above 90%. However, several challenges remain. One major problem is high dropout, especially at higher levels, partly because of economic factors. Another problem is excessive memorization instead of developing critical thinking, creativity, problem-solving, and practical skills.
+                </p>
+
+                <p>
+                  Teacher quality is another challenge. Poorly trained teachers and insufficient professional development can affect the quality of education. Rural areas also face problems with infrastructure and learning facilities. In addition, there can be a mismatch between the curriculum and job-market requirements, contributing to graduate unemployment.
+                </p>
+
+                <p>
+                  One important solution is skill-based education. Students should develop practical knowledge, problem-solving, communication, creativity, collaboration, and digital literacy. Technical and vocational education (TVET) is also important because it provides practical skills for specific occupations and industries and helps reduce the gap between education and employment.
+                </p>
+
+                <p>
+                  Technology can improve education by providing digital resources, online learning platforms, and tools for lesson preparation, assessment, and communication. However, technology alone cannot solve educational problems. Effective use requires teacher preparation, appropriate content, reliable infrastructure, and equal access.
+                </p>
+
+                <p>
+                  Other important prospects include teacher development, research and innovation, and inclusive education. Female participation in education has also improved, but gender equality should include completion, learning outcomes, subject choice, higher education, and employment opportunities.
+                </p>
+
+                <p>
+                  Education contributes to national development by creating human capital. It produces skilled workers, professionals, researchers, entrepreneurs, and informed citizens. It can increase productivity and innovation, reduce poverty, improve social participation, and strengthen social cohesion.
+                </p>
+
+                <p>
+                  In conclusion, Bangladesh has a structured education system with general, madrasah, and technical-vocational streams. Although access has improved, challenges remain in quality, dropout, teacher development, infrastructure, curriculum, skills, and technology. Future improvement should focus on quality education, practical skills, TVET, technology, teacher development, research, and inclusive education.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 21 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-50 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+          <span class="text-red-500 text-xl flex-shrink-0">🔴</span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            21. Which Technology Can Improve the Education of Bangladesh?
+          </span>
+
+          <span class="arrow text-slate-400 text-xl flex-shrink-0">
+            ▼
+          </span>
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  Technology can play an important role in improving education in Bangladesh. Digital resources, online learning platforms, digital teaching tools, assessment tools, communication systems, and educational data systems can improve access to education and support better teaching and learning.
+                </p>
+
+                <p>
+                  Digital educational resources provide students with access to information beyond traditional textbooks. They allow students to explore learning materials and study different topics. Online learning platforms also support flexible learning, allowing students to access educational materials beyond the traditional classroom.
+                </p>
+
+                <p>
+                  Technology can help teachers with lesson preparation, assessment, and communication. Digital assessment tools can help teachers evaluate students’ learning, while educational data systems can help institutions monitor student participation and identify areas that need improvement.
+                </p>
+
+                <p>
+                  Technology can also support digital education and digital literacy. Students can develop important modern skills such as critical thinking, creativity, communication, collaboration, and problem-solving. Digital tools can also support technical and vocational education, research, and innovation.
+                </p>
+
+                <p>
+                  However, technology alone cannot solve educational problems. Teachers need proper training to use digital tools effectively. Suitable educational content and reliable infrastructure are also necessary. Equal access is especially important because students without access to technology may fall behind, increasing educational inequality.
+                </p>
+
+                <p>
+                  Therefore, technology should be integrated meaningfully into the education system. It should improve learning rather than simply replace traditional teaching methods.
+                </p>
+
+                <p>
+                  In conclusion, digital resources, online platforms, teaching and assessment tools, communication technologies, and educational data systems can improve education in Bangladesh. Their successful use depends on trained teachers, appropriate content, reliable infrastructure, and equal access.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 22 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-50 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+          <span class="text-red-500 text-xl flex-shrink-0">🔴</span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            22. Major Prospects of Education in Bangladesh
+          </span>
+
+          <span class="arrow text-slate-400 text-xl flex-shrink-0">
+            ▼
+          </span>
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  Education in Bangladesh has several important prospects, including quality education, skill-based education, technical and vocational education, digital education, teacher development, research and innovation, and inclusive education.
+                </p>
+
+                <p>
+                  The first prospect is quality education. Bangladesh has made progress in educational access, with primary enrollment above 90%. The focus should now be on improving the quality of learning.
+                </p>
+
+                <p>
+                  Another prospect is skill-based education. Education should develop critical thinking, creativity, communication, collaboration, digital literacy, and problem-solving instead of depending mainly on memorization.
+                </p>
+
+                <p>
+                  Technical and vocational education (TVET) can prepare students for different occupations and industries. It can reduce the gap between education and employment and support industrialization, entrepreneurship, and skilled human resources.
+                </p>
+
+                <p>
+                  Digital education is another important prospect. Digital resources and online platforms can improve access to learning. Technology can also support teachers in lesson preparation, assessment, and communication. However, it requires trained teachers, suitable content, reliable infrastructure, and equal access.
+                </p>
+
+                <p>
+                  Teacher development is essential for improving educational quality. Continuous professional development can help teachers use modern teaching methods and technology effectively.
+                </p>
+
+                <p>
+                  Other major prospects include research and innovation and inclusive education. Research can support new knowledge and national development, while inclusive education can improve access and equity for disadvantaged groups.
+                </p>
+
+                <p>
+                  Female empowerment is also an important prospect. Increased participation of women in education can support greater participation in economic and social life. The system should also focus on completion, learning outcomes, higher education, and employment.
+                </p>
+
+                <p>
+                  Finally, curriculum reform and human-capital development can help produce skilled workers, professionals, researchers, entrepreneurs, and informed citizens. The 2010 National Education Policy is also identified as an important educational reform.
+                </p>
+
+                <p>
+                  In conclusion, the major prospects are quality education, skill-based learning, TVET, digital education, teacher development, research, innovation, inclusive education, female empowerment, and curriculum reform. These can contribute to employment, productivity, social mobility, and national development.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 23 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-50 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+          <span class="text-red-500 text-xl flex-shrink-0">🔴</span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            23. Major Challenges of Education in Bangladesh
+          </span>
+
+          <span class="arrow text-slate-400 text-xl flex-shrink-0">
+            ▼
+          </span>
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  The education system of Bangladesh faces several major challenges, including educational quality, teacher development, infrastructure, dropout, curriculum, skills mismatch, examination pressure, digital inequality, financing, and access.
+                </p>
+
+                <p>
+                  The first challenge is educational quality. Enrollment alone does not guarantee meaningful learning. Greater attention is needed to improve students’ actual learning outcomes.
+                </p>
+
+                <p>
+                  Another challenge is the excessive focus on memorization. Students may focus on examinations instead of developing critical thinking, creativity, problem-solving, and analytical skills.
+                </p>
+
+                <p>
+                  Teacher quality is also a major problem. Poorly trained teachers can affect classroom learning. Proper preparation and continuous professional development are needed to improve teaching quality.
+                </p>
+
+                <p>
+                  Another challenge is low funding and inadequate infrastructure. Limited resources can affect classrooms, learning materials, technology, and other educational facilities. Rural and difficult areas may also have fewer educational resources.
+                </p>
+
+                <p>
+                  Dropout is another serious challenge, particularly at the secondary level. Economic factors can cause students to leave education early and lose opportunities to develop knowledge and skills.
+                </p>
+
+                <p>
+                  There is also a skills mismatch between education and labour-market needs. If students do not gain the skills required by employers, this can contribute to graduate unemployment. Strengthening technical and vocational education (TVET) can help reduce this gap.
+                </p>
+
+                <p>
+                  Examination pressure can encourage memorization rather than understanding. Assessment should therefore focus more on understanding and application.
+                </p>
+
+                <p>
+                  Another challenge is digital inequality. Technology can increase inequality if students do not have equal access, reliable infrastructure, appropriate content, and trained teachers.
+                </p>
+
+                <p>
+                  Other challenges include curriculum relevance, gender equality, research and innovation, inclusive education, and adequate financing. The presentation states that government education expenditure was around 2% of GDP in 2024, highlighting the importance of adequate investment.
+                </p>
+
+                <p>
+                  In conclusion, the major challenges are poor educational quality, memorization, teacher training, inadequate funding and infrastructure, dropout, skills mismatch, examination pressure, digital inequality, and unequal access. Addressing these requires better teachers, skill-based education, TVET, appropriate technology, improved infrastructure, adequate financing, and inclusive education.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+    </div>
+
+  </div>
+
+
+  <script>
+    function toggleAnswer(button) {
+      const answer = button.nextElementSibling;
+
+      button.classList.toggle("active");
+      answer.classList.toggle("open");
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangladesh Studies - Others</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .answer-wrapper {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition:
+        grid-template-rows 0.45s ease,
+        opacity 0.35s ease;
+    }
+
+    .answer-wrapper.open {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
+
+    .answer-inner {
+      overflow: hidden;
+    }
+
+    .arrow {
+      transition: transform 0.35s ease;
+    }
+
+    .question.active .arrow {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-white text-slate-900">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center h-16">
+        <a
+          href="education.html"
+          class="text-slate-800 font-semibold hover:text-red-500 transition duration-300"
+        >
+          Education
+        </a>   <a
+          href="index.html"
+          class=" ml-7 text-slate-800 font-semibold hover:text-red-500 transition duration-300"
+        >
+          home
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+
+    <!-- Header -->
+    <header class="mb-10">
+      <h1 class="text-3xl sm:text-4xl font-bold text-slate-900">
+        Bangladesh Studies - Others
+      </h1>
+
+      <p class="mt-3 text-slate-500">
+        Tap a question to reveal the answer.
+      </p>
+    </header>
+
+    <div class="space-y-4">
+
+      <!-- QUESTION 1 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the Geographical Location of Bangladesh.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  Bangladesh is a low-lying country in South Asia, located between
+                  approximately 20°34′ and 26°38′ north latitude and 88°01′ and
+                  92°41′ east longitude. It has a total area of 147,570 square
+                  kilometers.
+                </p>
+
+                <p>
+                  It is bordered by India on the west, north, and northeast,
+                  Myanmar on the southeast, and the Bay of Bengal on the south.
+                  Its geographical location places it in the eastern part of the
+                  Indian subcontinent and gives the country an important connection
+                  with South and Southeast Asia.
+                </p>
+
+                <p>
+                  Bangladesh is often called the "Land of Rivers" because about
+                  230 rivers flow through the country. The three major rivers are
+                  the Padma, Jamuna, and Meghna, which join together before flowing
+                  into the Bay of Bengal.
+                </p>
+
+                <p>
+                  These rivers make the soil very fertile, which is why agriculture
+                  is one of the main occupations of the people. They also provide
+                  water for irrigation, fishing, transportation, and daily use.
+                  The country's location near the Bay of Bengal also has an
+                  important influence on its climate and natural environment.
+                </p>
+
+                <p>
+                  The land of Bangladesh can be divided into three main physical
+                  regions. About 80% of the country is made up of flat floodplains,
+                  12% is covered by hills, mainly in the southeast and northeast,
+                  and the remaining 8% consists of terrace lands.
+                </p>
+
+                <p>
+                  Most of the country is therefore flat and low-lying, while the
+                  hilly areas are mainly found in the Chittagong Hill Tracts and
+                  parts of Sylhet. These physical features are closely connected
+                  with the country's geographical location and river systems.
+                </p>
+
+                <p>
+                  Although the rivers and fertile plains are great advantages, the
+                  low-lying land also makes Bangladesh vulnerable to natural
+                  disasters. Every year, the country faces floods, cyclones, river
+                  erosion, droughts, tornadoes, and occasionally earthquakes.
+                </p>
+
+                <p>
+                  Despite these challenges, Bangladesh's unique topography and
+                  geographical location play a vital role in its agriculture,
+                  economy, transportation, climate, and the daily lives of its
+                  people.
+                </p>
+
+                <p>
+                  Therefore, the geographical location of Bangladesh has a major
+                  influence on the country's natural environment and the lives of
+                  its people.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 2 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the Demography of Bangladesh.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  Bangladesh is a low-lying country in South Asia, located between
+                  approximately 20°34′ and 26°38′ north latitude and 88°01′ and
+                  92°41′ east longitude. It has a total area of 147,570 square
+                  kilometers.
+                </p>
+
+                <p>
+                  It is bordered by India on the west, north, and northeast,
+                  Myanmar on the southeast, and the Bay of Bengal on the south.
+                  Bangladesh is situated in the northeastern part of the Indian
+                  subcontinent.
+                </p>
+
+                <p>
+                  Its geographical location connects it with the South Asian
+                  region and gives it close links with neighboring countries.
+                </p>
+
+                <p>
+                  Bangladesh is often called the "Land of Rivers" because about
+                  230 rivers flow through the country. The three major rivers are
+                  the Padma, Jamuna, and Meghna, which join together before flowing
+                  into the Bay of Bengal.
+                </p>
+
+                <p>
+                  These rivers make the soil very fertile, which is why agriculture
+                  is one of the main occupations of the people. They also provide
+                  water for irrigation, fishing, transportation, and daily use.
+                </p>
+
+                <p>
+                  The land of Bangladesh can be divided into three main physical
+                  regions. About 80% of the country is made up of flat floodplains,
+                  12% is covered by hills, mainly in the southeast and northeast,
+                  and the remaining 8% consists of terrace lands.
+                </p>
+
+                <p>
+                  Most of the country is therefore flat and low-lying, while the
+                  hilly areas are mainly found in the Chittagong Hill Tracts and
+                  parts of Sylhet.
+                </p>
+
+                <p>
+                  Although the rivers and fertile plains are great advantages, the
+                  low-lying land also makes Bangladesh vulnerable to natural
+                  disasters such as floods, cyclones, river erosion, droughts,
+                  tornadoes, and occasionally earthquakes.
+                </p>
+
+                <p>
+                  Despite these challenges, Bangladesh's geographical location,
+                  natural environment, river systems, and physical features have
+                  a significant influence on its economy and the lives of its
+                  people.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 3 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the History of Bangladesh.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  History is the study of past events and how they have shaped a
+                  country and its people. The history of Bangladesh is a story of
+                  struggle, change, and independence.
+                </p>
+
+                <p>
+                  Muslims first came to Bengal in the 13th century and established
+                  their rule. Later, European traders such as the Portuguese,
+                  Dutch, French, and British arrived.
+                </p>
+
+                <p>
+                  By the late 1750s, the British took control of Bengal and ruled
+                  for nearly 200 years.
+                </p>
+
+                <p>
+                  After World War II, British India was divided into India and
+                  Pakistan in 1947. Bangladesh became East Pakistan, while the
+                  other part was West Pakistan.
+                </p>
+
+                <p>
+                  Although both regions shared the same religion, they had
+                  different languages and cultures. When the government declared
+                  Urdu as the only national language, the people of East Pakistan
+                  protested in the Language Movement of 1952, demanding recognition
+                  of Bangla.
+                </p>
+
+                <p>
+                  The Language Movement became an important part of Bengali
+                  national identity and strengthened the people's demand for
+                  political and cultural rights.
+                </p>
+
+                <p>
+                  In the 1970 elections, the Awami League won the majority, but it
+                  was not allowed to form the government. This created serious
+                  political tension between East and West Pakistan.
+                </p>
+
+                <p>
+                  This situation eventually led to the Liberation War, which began
+                  on 26 March 1971.
+                </p>
+
+                <p>
+                  After nine months of war and with India's support, Pakistan
+                  surrendered on 16 December 1971, and Bangladesh became an
+                  independent country.
+                </p>
+
+                <p>
+                  Therefore, the history of Bangladesh is closely connected with
+                  the struggles for language, political rights, cultural identity,
+                  autonomy, and national independence.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 4 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the Major Ethnic Groups of Bangladesh.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  The major ethnic group of Bangladesh is the ethnic Bengali
+                  population, which makes up about 98% of the country's population.
+                </p>
+
+                <p>
+                  Bengalis have their own rich culture, traditions, history, and
+                  language. Bangla (Bengali) is the official language of Bangladesh
+                  and is spoken by almost everyone.
+                </p>
+
+                <p>
+                  Bengali is an Indo-Aryan language with its own script. Bengali
+                  culture includes traditional music, literature, festivals, food,
+                  and customs.
+                </p>
+
+                <p>
+                  The remaining population includes different ethnic communities
+                  such as the Biharis and indigenous tribal groups.
+                </p>
+
+                <p>
+                  Important indigenous groups include the Chakma, Santhal, and
+                  Garo, with many tribal communities living in the Chittagong Hill
+                  Tracts.
+                </p>
+
+                <p>
+                  Together, these ethnic groups contribute to the cultural
+                  diversity of Bangladesh.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 5 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the Independence of Bangladesh, 1971.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  The independence of Bangladesh in 1971 was the result of a long
+                  political, economic, cultural, and social struggle.
+                </p>
+
+                <p>
+                  After the partition of British India in 1947, Pakistan was
+                  divided into East Pakistan and West Pakistan. Although East
+                  Pakistan had the majority population, its people faced political,
+                  economic, and cultural discrimination from the rulers of West
+                  Pakistan.
+                </p>
+
+                <p>
+                  The Language Movement of 1952 was an important step in the
+                  development of Bengali nationalism. The people of East Pakistan
+                  demanded recognition of Bangla as a state language.
+                </p>
+
+                <p>
+                  The movement strengthened Bengali cultural identity and
+                  encouraged people to fight for their rights.
+                </p>
+
+                <p>
+                  In 1966, Sheikh Mujibur Rahman presented the Six-Point Programme,
+                  demanding greater autonomy for East Pakistan.
+                </p>
+
+                <p>
+                  The mass movement of 1969 further strengthened the demand for
+                  political rights. In the 1970 general election, the Awami League
+                  won a clear majority, but power was not transferred to them.
+                </p>
+
+                <p>
+                  This created serious political tension between East and West
+                  Pakistan.
+                </p>
+
+                <p>
+                  On 7 March 1971, Sheikh Mujibur Rahman delivered his historic
+                  speech at the Race Course Ground in Dhaka and called upon the
+                  people to continue the struggle.
+                </p>
+
+                <p>
+                  Throughout March, a non-cooperation movement took place in East
+                  Pakistan. On 25 March, the Pakistan Army launched a military
+                  crackdown in East Pakistan.
+                </p>
+
+                <p>
+                  On 26 March 1971, the independence of Bangladesh was declared,
+                  and the Liberation War began.
+                </p>
+
+                <p>
+                  The Liberation War continued for about nine months. The Mukti
+                  Bahini fought against the Pakistan Army, and people from different
+                  sections of society participated in the struggle.
+                </p>
+
+                <p>
+                  Millions of people were affected by the war, and many were
+                  forced to leave their homes. A provisional government was also
+                  established at Mujibnagar to organize the war effort.
+                </p>
+
+                <p>
+                  In December 1971, India joined the war, and the joint
+                  Bangladesh-India forces advanced towards Dhaka.
+                </p>
+
+                <p>
+                  On 16 December 1971, the Pakistan Army surrendered in Dhaka.
+                  Bangladesh achieved victory and became an independent country.
+                  This day is celebrated every year as Victory Day.
+                </p>
+
+                <p>
+                  The independence of Bangladesh was therefore achieved through
+                  a long struggle for political rights, cultural identity,
+                  self-determination, and national freedom.
+                </p>
+
+                <p>
+                  The Language Movement, the Six-Point Programme, the mass movement
+                  of 1969, the election of 1970, and the Liberation War all played
+                  important roles in the creation of Bangladesh.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- QUESTION 6 -->
+      <section class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-lg">
+
+        <button
+          type="button"
+          class="question w-full flex items-center gap-4 p-5 sm:p-6 text-left hover:bg-slate-100 transition duration-300"
+          onclick="toggleAnswer(this)"
+        >
+
+          <span class="text-red-500 text-xl flex-shrink-0">
+            🔴
+          </span>
+
+          <span class="flex-1 font-semibold text-base sm:text-lg text-slate-900">
+            Explain the Language Movement of 1952.
+          </span>
+
+          <span class="arrow text-slate-500 text-xl flex-shrink-0">
+            ▼
+          </span>
+
+        </button>
+
+        <div class="answer-wrapper">
+          <div class="answer-inner">
+
+            <div class="px-5 sm:px-6 pb-6 pt-1 border-t border-slate-200">
+
+              <div class="text-slate-700 leading-7 space-y-4">
+
+                <p>
+                  The Language Movement of 1952 was one of the most important
+                  movements in the history of Bangladesh.
+                </p>
+
+                <p>
+                  After the creation of Pakistan in 1947, the central government
+                  tried to make Urdu the only state language, even though the
+                  majority of the people of East Pakistan spoke Bangla.
+                </p>
+
+                <p>
+                  Students, teachers, intellectuals, and ordinary people strongly
+                  protested against this decision. They demanded that Bangla
+                  should be recognized as one of the state languages of Pakistan.
+                </p>
+
+                <p>
+                  The movement became stronger in early 1952, especially among
+                  the students of Dhaka University and other educational
+                  institutions.
+                </p>
+
+                <p>
+                  On 21 February 1952, students and activists demonstrated in
+                  Dhaka despite government restrictions on public gatherings.
+                </p>
+
+                <p>
+                  The police opened fire on the protesters, and several people
+                  were killed. Among the language martyrs were Abul Barkat,
+                  Abdul Jabbar, Rafiq Uddin Ahmed, and Abdus Salam.
+                </p>
+
+                <p>
+                  The deaths of the protesters created a strong reaction throughout
+                  East Pakistan. The sacrifice of the language martyrs became a
+                  symbol of the struggle for linguistic and cultural rights.
+                </p>
+
+                <p>
+                  The movement continued, and eventually Bangla was recognized as
+                  one of the state languages of Pakistan.
+                </p>
+
+                <p>
+                  The Language Movement was important because it strengthened
+                  Bengali national identity and increased awareness of political
+                  and cultural rights.
+                </p>
+
+                <p>
+                  It also became an important foundation for the later movements
+                  for autonomy and independence.
+                </p>
+
+                <p>
+                  21 February is observed in Bangladesh as Shaheed Dibash, or
+                  Martyrs' Day. It is also recognized internationally as
+                  International Mother Language Day.
+                </p>
+
+                <p>
+                  The Language Movement of 1952 is remembered as an important step
+                  in the long struggle that eventually led to the independence of
+                  Bangladesh.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+  </div>
+
+
+  <!-- JavaScript -->
+  <script>
+    function toggleAnswer(button) {
+      const answer = button.nextElementSibling;
+
+      button.classList.toggle("active");
+      answer.classList.toggle("open");
+    }
+  </script>
+
+</body>
+</html>
